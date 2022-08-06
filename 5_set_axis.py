@@ -8,7 +8,7 @@ def sinusGenerator(amplitudo,frekuensi,tAkhir,theta):
 	y = amplitudo * np.sin(2*frekuensi*t + np.deg2rad(theta))
 	return t,y
 
-t,y = sinusGenerator(1,1,4,0)
+t,y = sinusGenerator(2,2,6,0)
 
 # membuat plot
 plt.plot(t,y)
